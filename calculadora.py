@@ -3,7 +3,7 @@
 print("✪✪ CALCULADORA ✪✪")
 num1 = float(input("Escribe el primer numero: "))
 num2 = float(input("Escribe el segundo numero: "))
-op = input("¿Cual operacion deseas hacer? (+)(-)(*)(/) ")
+op = input("¿Cual operacion deseas hacer? (+)(-)(*)(/)")
 
 def suma(num_1, num_2):
     return num_1 + num_2
@@ -16,6 +16,7 @@ def mult(num_1, num_2):
 
 def div(num_1, num_2):
     return num_1 / num_2
+
 
 if op == "+":
     resultado = suma(num1, num2)
