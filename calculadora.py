@@ -1,6 +1,6 @@
 # Mi calculadora
 
-print("✪✪CALCULADORA✪✪")
+print("✪✪ CALCULADORA ✪✪")
 num1 = float(input("Escribe el primer numero: "))
 num2 = float(input("Escribe el segundo numero: "))
 op = input("¿Cual operacion deseas hacer? (+)(-)(*)(/) ")
