@@ -13,7 +13,7 @@ class Enemigo:
     
     def habla(self):
         print(f" Yo son {self._tipo_enemigo} Preparando para pelear!!")
-
+        
     def camina(self):
         print(f" {self._tipo_enemigo} se mueve cerca de ti !!")
 
